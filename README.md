@@ -17,7 +17,7 @@ INSTALLATION AND USE:
 
 3) Set the path for the file "vgg16_weights.h5" in line 32 of the code, variable "weights_path", and the number of epochs in line 57, I suggest more than 80 epoch, if you can;
 
-4) This model uses the Eigenvalue Decay regularizer, if Keras is already installed, check if you have this regularizer, if don't have it, update Keras to have Eigenvalue Decay: sudo pip install git+git://github.com/fchollet/keras.git --upgrade
+4) This model uses the Eigenvalue Decay regularizer, if Keras is already installed, check if you have this regularizer, if you don't have it, update Keras to have Eigenvalue Decay: sudo pip install git+git://github.com/fchollet/keras.git --upgrade
 
 5) Run “HumanActionRecognition.py” to train the deep model and create the submission file with the estimated classes for the test data. To run in GPU you can call the code like this: THEANO_FLAGS=mode=FAST_RUN,device=gpu,floatX=float32,exception_verbosity=high python HumanActionRecognition.py
 
