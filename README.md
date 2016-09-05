@@ -11,9 +11,9 @@ This script reuses pieces of code from the post "Building powerful image classif
 
 ## INSTALLATION AND USE:
 
-  1. Download the training data at https://www.kaggle.com/c/state-farm-distracted-driver-detection/data (keeping the name of the folders as "train" and "test");
+  1. Download the [training data](https://www.kaggle.com/c/state-farm-distracted-driver-detection/data), keeping the name of the folders as "train" and "test");
 
-  2. Download the file "vgg16_weights.h5" containing the pre-trained weights of the VGG-16 at https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3
+  2. Download the file ["vgg16_weights.h5"](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3) containing the pre-trained weights of the VGG-16. 
 
   3. Set the path for the file "vgg16_weights.h5" in line 32 of the code, variable "weights_path", and the number of epochs in line 57, I suggest more than 80 epoch, if you can;
 
